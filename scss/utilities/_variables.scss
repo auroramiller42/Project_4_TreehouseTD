@@ -1,18 +1,43 @@
-// Variables
-
-
-// Color Variables
-$primary-color: #51ddfc;
-$secondary-color: #e4757a;
-$tertiary-color: #927bc1;
-$quarternary-color: #63cc82;
-$quinary-color: #fd7856;
+/* ============================================= */
+/*              Variables                        */
+/* ============================================= */
 
 
 
 
-// Media Query Variables
-$small: 575px;
-$medium: 768px;
-$large: 1020px;
-$max-width: 1400px;
+/* ============================================= */
+/*              Color Variables                  */
+/* ============================================= */
+
+$primary-color: #58e1c1;
+$color-3: #deb2ee;
+$color-4: #7ee6fd;
+$color-5: #88d9a0;
+$color-6: #4da2bb;
+$color-7: #ec9fa3;
+$color-8: #fd9f85;
+$color-11: #80e8d1;
+
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+$btn-default: #51ddfc;
+$btn-success: #63cc82;
+$btn-error: #e4757a;
+$btn-warning: #fd7856;
+$btn-info: #927bc1;
+
+/* ============================================= */
+/*              Fonts                            */
+/* ============================================= */
+
+$primary-font-color: #777;
+$secondary-font-color: #fff;
+
+
+/* ============================================= */
+/*           Media Query Breakpoint              */
+/* ============================================= */
+$break-media: 786px;

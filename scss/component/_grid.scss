@@ -1,0 +1,184 @@
+/* ============================================= */
+/*              Grid                             */
+/* ============================================= */
+
+
+.container {
+    padding: 0 10px;
+    @media (min-width: $break-media) {
+      max-width: 1400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 10px;
+    @media (min-width: $break-media)
+    {
+      flex-direction: row;
+    }
+  }
+  
+  [class^=col] {
+    margin-top: 10px;
+    flex-basis: 100%;
+    min-height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    @media (min-width: $break-media)
+    {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      align-items: center;
+      & + & {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .card {
+    flex-basis: 100%;
+  }
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  &-avatar{
+    @extend .img;
+      margin-top: 10px;
+      max-width: 100%; 
+      max-height: 100%;
+  }
+  &-frame{
+    @extend .img;
+      margin-top: 10px;
+      max-width: 100%;
+      padding: 13px;
+      border: 1px solid $secondary-font-color;
+  }
+  &-logo{
+    @extend .img;
+  }
+
+}
+
+
+/* ============================================= */
+/*              Columns                          */
+/* ============================================= */
+
+
+.theme.col-1 {
+  background-color: $btn-info;
+  @media (min-width:$break-media){
+    flex-basis: 8.33%;
+  }
+}
+
+
+.theme.col-2 {
+  background-color: $btn-warning;
+  @media (min-width:$break-media){
+    flex-basis: 16.67%;
+  }
+}
+
+.theme.col-3 {
+  background-color: $color-3;
+  @media (min-width:$break-media){
+    flex-basis: 25.00%;
+  }
+}
+
+.theme.col-4 {
+  background-color: $color-4;
+  @media (min-width:$break-media){
+    flex-basis: 33.33%;
+  }
+}
+
+.theme.col-5 {
+  background-color: $color-5;
+  @media (min-width:$break-media){
+    flex-basis: 41.67%;
+  }
+}
+
+.theme.col-6 {
+  background-color: $color-6;
+  @media (min-width:$break-media){
+    flex-basis: 50.00%;
+  }
+}
+
+.theme.col-7 {
+  background-color: $color-7;
+  @media (min-width:$break-media){
+    flex-basis: 58.33%;
+  }
+}
+
+.theme.col-8 {
+  background-color: $color-8;
+  @media (min-width:$break-media){
+    flex-basis: 66.67%;
+  }
+}
+
+.theme.col-9 {
+  background-color: $btn-error;
+  @media (min-width:$break-media){
+    flex-basis: 75.00%;
+  }
+}
+
+.theme.col-10 {
+  background-color: $btn-success;
+  @media (min-width:$break-media){
+    flex-basis: 83.33%;
+  }
+}
+
+.theme.col-11 {
+  background-color: $btn-default;
+  @media (min-width:$break-media){
+    flex-basis: 91.67%;
+  }
+}
+
+.theme.col-12 {
+  background-color: $color-11;
+  @media (min-width:$break-media){
+    flex-basis: 100%;
+  }
+}
+
+
+/* ============================================= */
+/*              Add'l Media Queries              */
+/* ============================================= */
+
+@media (min-width: $break-media){
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
+  
+}
