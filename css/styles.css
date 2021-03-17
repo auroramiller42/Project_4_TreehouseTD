@@ -25,8 +25,7 @@ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Sections
      ========================================================================== */
@@ -35,16 +34,14 @@ html {
    */
 /* line 23, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /**
    * Render the `main` element consistently in IE.
    */
 /* line 31, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 main {
-  display: block;
-}
+  display: block; }
 
 /**
    * Correct the font size and margin on `h1` elements within `section` and
@@ -53,8 +50,7 @@ main {
 /* line 40, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
 /* Grouping content
      ========================================================================== */
@@ -69,8 +65,7 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -81,8 +76,7 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Text-level semantics
      ========================================================================== */
@@ -91,8 +85,7 @@ pre {
    */
 /* line 76, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 a {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 /**
    * 1. Remove the bottom border in Chrome 57-
@@ -105,8 +98,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * Add the correct font weight in Chrome, Edge, and Safari.
@@ -114,8 +106,7 @@ abbr[title] {
 /* line 95, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 b,
 strong {
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -128,16 +119,14 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * Add the correct font size in all browsers.
    */
 /* line 116, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /**
    * Prevent `sub` and `sup` elements from affecting the line height in
@@ -149,18 +138,15 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* line 133, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 /* line 137, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 /* Embedded content
      ========================================================================== */
@@ -169,8 +155,7 @@ sup {
    */
 /* line 148, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 img {
-  border-style: none;
-}
+  border-style: none; }
 
 /* Forms
      ========================================================================== */
@@ -191,8 +176,7 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * Show the overflow in IE.
@@ -202,8 +186,7 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible;
-}
+  overflow: visible; }
 
 /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -213,8 +196,7 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none;
-}
+  text-transform: none; }
 
 /**
    * Correct the inability to style clickable types in iOS and Safari.
@@ -224,8 +206,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
-}
+  -webkit-appearance: button; }
 
 /**
    * Remove the inner border and padding in Firefox.
@@ -236,8 +217,7 @@ button::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0;
-}
+  padding: 0; }
 
 /**
    * Restore the focus styles unset by the previous rule.
@@ -247,16 +227,14 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
+  outline: 1px dotted ButtonText; }
 
 /**
    * Correct the padding in Firefox.
    */
 /* line 229, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
    * 1. Correct the text wrapping in Edge and IE.
@@ -277,24 +255,21 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */
-}
+  /* 1 */ }
 
 /**
    * Add the correct vertical alignment in Chrome, Firefox, and Opera.
    */
 /* line 253, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 progress {
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /**
    * Remove the default vertical scrollbar in IE 10+.
    */
 /* line 261, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 textarea {
-  overflow: auto;
-}
+  overflow: auto; }
 
 /**
    * 1. Add the correct box sizing in IE 10.
@@ -306,8 +281,7 @@ textarea {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * Correct the cursor style of increment and decrement buttons in Chrome.
@@ -315,8 +289,7 @@ textarea {
 /* line 280, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
+  height: auto; }
 
 /**
    * 1. Correct the odd appearance in Chrome and Safari.
@@ -327,16 +300,14 @@ textarea {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */
-}
+  /* 2 */ }
 
 /**
    * Remove the inner padding in Chrome and Safari on macOS.
    */
 /* line 299, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /**
    * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -347,8 +318,7 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* Interactive
      ========================================================================== */
@@ -357,16 +327,14 @@ textarea {
    */
 /* line 320, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 details {
-  display: block;
-}
+  display: block; }
 
 /*
    * Add the correct display in all browsers.
    */
 /* line 328, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 summary {
-  display: list-item;
-}
+  display: list-item; }
 
 /* Misc
      ========================================================================== */
@@ -375,33 +343,28 @@ summary {
    */
 /* line 339, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 template {
-  display: none;
-}
+  display: none; }
 
 /**
    * Add the correct display in IE 10.
    */
 /* line 347, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_normalize.scss */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /* line 3, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_typography.scss */
 * {
   font-family: 'Lato', sans-serif;
   color: #777;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /* line 9, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_typography.scss */
 p {
-  line-height: 1.45em;
-}
+  line-height: 1.45em; }
 
 /* line 13, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_typography.scss */
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 /* ============================================= */
 /*              Typography                       */
@@ -409,20 +372,17 @@ a {
 /* line 22, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_typography.scss */
 .headline-primary {
   color: #58e1c1;
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 /* line 27, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
-  color: #777;
-}
+  color: #777; }
 
 /* line 32, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_typography.scss */
 .link {
   color: #80e8d1;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 /* line 37, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/base/_typography.scss */
 .blockquote {
@@ -432,8 +392,7 @@ a {
   margin-left: 20px;
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
 /* ============================================= */
 /*              Navigation                       */
@@ -443,297 +402,123 @@ a {
   padding-left: 0;
   flex-basis: 100%;
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
-@media (min-width: 786px) {
-  /* line 5, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_navigation.scss */
-  .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
-}
-
-/* line 18, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_navigation.scss */
+/* line 13, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
   display: block;
   width: 100%;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
-}
-
-@media (min-width: 786px) {
-  /* line 18, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_navigation.scss */
-  .nav-link {
-    flex-basis: 100px;
-  }
-}
-
-/* line 31, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_navigation.scss */
-.nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1;
-}
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out; }
+  /* line 22, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_navigation.scss */
+  .nav-link:hover {
+    color: #fff;
+    background-color: #58e1c1; }
 
 /* ============================================= */
 /*              Grid                             */
 /* ============================================= */
 /* line 6, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
 .container {
-  padding: 0 10px;
-}
+  padding: 0 10px; }
 
-@media (min-width: 786px) {
-  /* line 6, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .container {
-    max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* line 16, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+/* line 10, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
 .row {
   display: flex;
   flex-direction: column;
-  padding: 1em 10px;
-}
+  padding: 1em 10px; }
 
-@media (min-width: 786px) {
-  /* line 16, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .row {
-    flex-direction: row;
-  }
-}
-
-/* line 26, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+/* line 16, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
   min-height: 25px;
   padding: 10px;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
-@media (min-width: 786px) {
-  /* line 26, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  [class^=col] {
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-    align-items: center;
-  }
-  /* line 38, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  [class^=col] + [class^=col] {
-    margin-left: 10px;
-  }
-}
-
-/* line 44, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+/* line 24, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
 .card {
-  flex-basis: 100%;
-}
+  flex-basis: 100%; }
 
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-/* line 53, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+/* line 33, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
 .img, .img-avatar, .img-frame, .img-logo {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-}
-
-/* line 58, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-.img-avatar {
-  margin-top: 10px;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/* line 64, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-.img-frame {
-  margin-top: 10px;
-  max-width: 100%;
-  padding: 13px;
-  border: 1px solid #fff;
-}
+  margin-right: auto; }
+  /* line 36, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+  .img-avatar {
+    margin-top: 10px;
+    max-width: 100%;
+    max-height: 100%; }
+  /* line 42, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+  .img-frame {
+    margin-top: 10px;
+    max-width: 100%;
+    padding: 13px;
+    border: 1px solid #fff; }
 
 /* ============================================= */
 /*              Columns                          */
 /* ============================================= */
-/* line 83, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+/* line 61, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
 .theme.col-1 {
-  background-color: #927bc1;
-}
+  background-color: #927bc1; }
 
-@media (min-width: 786px) {
-  /* line 83, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-1 {
-    flex-basis: 8.33%;
-  }
-}
-
-/* line 91, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+/* line 66, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
 .theme.col-2 {
-  background-color: #fd7856;
-}
+  background-color: #fd7856; }
 
-@media (min-width: 786px) {
-  /* line 91, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-2 {
-    flex-basis: 16.67%;
-  }
-}
+/* line 70, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+.theme.col-3 {
+  background-color: #deb2ee; }
+
+/* line 74, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+.theme.col-4 {
+  background-color: #7ee6fd; }
+
+/* line 78, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+.theme.col-5 {
+  background-color: #88d9a0; }
+
+/* line 82, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+.theme.col-6 {
+  background-color: #4da2bb; }
+
+/* line 86, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+.theme.col-7 {
+  background-color: #ec9fa3; }
+
+/* line 90, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+.theme.col-8 {
+  background-color: #fd9f85; }
+
+/* line 94, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+.theme.col-9 {
+  background-color: #e4757a; }
 
 /* line 98, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-.theme.col-3 {
-  background-color: #deb2ee;
-}
-
-@media (min-width: 786px) {
-  /* line 98, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-3 {
-    flex-basis: 25.00%;
-  }
-}
-
-/* line 105, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-.theme.col-4 {
-  background-color: #7ee6fd;
-}
-
-@media (min-width: 786px) {
-  /* line 105, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-4 {
-    flex-basis: 33.33%;
-  }
-}
-
-/* line 112, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-.theme.col-5 {
-  background-color: #88d9a0;
-}
-
-@media (min-width: 786px) {
-  /* line 112, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-5 {
-    flex-basis: 41.67%;
-  }
-}
-
-/* line 119, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-.theme.col-6 {
-  background-color: #4da2bb;
-}
-
-@media (min-width: 786px) {
-  /* line 119, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-6 {
-    flex-basis: 50.00%;
-  }
-}
-
-/* line 126, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-.theme.col-7 {
-  background-color: #ec9fa3;
-}
-
-@media (min-width: 786px) {
-  /* line 126, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-7 {
-    flex-basis: 58.33%;
-  }
-}
-
-/* line 133, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-.theme.col-8 {
-  background-color: #fd9f85;
-}
-
-@media (min-width: 786px) {
-  /* line 133, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-8 {
-    flex-basis: 66.67%;
-  }
-}
-
-/* line 140, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-.theme.col-9 {
-  background-color: #e4757a;
-}
-
-@media (min-width: 786px) {
-  /* line 140, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-9 {
-    flex-basis: 75.00%;
-  }
-}
-
-/* line 147, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
 .theme.col-10 {
-  background-color: #63cc82;
-}
+  background-color: #63cc82; }
 
-@media (min-width: 786px) {
-  /* line 147, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-10 {
-    flex-basis: 83.33%;
-  }
-}
-
-/* line 154, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+/* line 102, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
 .theme.col-11 {
-  background-color: #51ddfc;
-}
+  background-color: #51ddfc; }
 
-@media (min-width: 786px) {
-  /* line 154, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-11 {
-    flex-basis: 91.67%;
-  }
-}
-
-/* line 161, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
+/* line 106, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
 .theme.col-12 {
-  background-color: #80e8d1;
-}
-
-@media (min-width: 786px) {
-  /* line 161, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .theme.col-12 {
-    flex-basis: 100%;
-  }
-}
-
-/* ============================================= */
-/*              Add'l Media Queries              */
-/* ============================================= */
-@media (min-width: 786px) {
-  /* line 174, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /* line 179, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_grid.scss */
-  .logo {
-    margin-left: initial;
-    margin-right: initial;
-  }
-}
+  background-color: #80e8d1; }
 
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
 /* line 5, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_form.scss */
 .form {
-  flex-basis: 100%;
-}
+  flex-basis: 100%; }
 
 /* line 9, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_form.scss */
 .input {
@@ -742,8 +527,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
-}
+  border-bottom: 5px solid #58e1c1; }
 
 /* line 18, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_form.scss */
 .hidden {
@@ -752,8 +536,7 @@ a {
   top: auto;
   width: 1px;
   height: 1px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* line 3, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
 .btn {
@@ -763,43 +546,120 @@ a {
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
-@media (min-width: 786px) {
-  /* line 3, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
-  .btn {
-    padding: 10px 30px;
-  }
-  /* line 14, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
-  .btn + .btn {
-    margin-left: 10px;
-  }
-}
+/* line 13, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
+.default {
+  background-color: #51ddfc; }
+  /* line 15, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
+  .default:hover {
+    background-color: #cef5fe; }
 
 /* line 20, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
-.default {
-  background-color: #51ddfc;
-}
-
-/* line 24, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
 .error {
-  background-color: #e4757a;
-}
+  background-color: #e4757a; }
+  /* line 22, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
+  .error:hover {
+    background-color: #f9e0e1; }
 
-/* line 28, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
+/* line 27, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
 .info {
-  background-color: #927bc1;
-}
+  background-color: #927bc1; }
+  /* line 29, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
+  .info:hover {
+    background-color: #dad2ea; }
 
-/* line 32, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
+/* line 34, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
 .success {
-  background-color: #63cc82;
-}
+  background-color: #63cc82; }
+  /* line 36, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
+  .success:hover {
+    background-color: #c3ebcf; }
 
-/* line 36, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
+/* line 41, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
 .warning {
-  background-color: #fd7856;
-}
+  background-color: #fd7856; }
+  /* line 43, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_button.scss */
+  .warning:hover {
+    background-color: #feddd4; }
+
+@media (min-width: 786px) {
+  /* line 3, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 8, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 12, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .row {
+    flex-direction: row; }
+  /* line 16, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center; }
+    /* line 21, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+    [class^=col] + [class^=col] {
+      margin-left: 10px; }
+  /* line 26, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-1 {
+    flex-basis: 8.33%; }
+  /* line 30, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-2 {
+    flex-basis: 16.67%; }
+  /* line 34, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-3 {
+    flex-basis: 25.00%; }
+  /* line 38, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-4 {
+    flex-basis: 33.33%; }
+  /* line 42, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-5 {
+    flex-basis: 41.67%; }
+  /* line 46, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-6 {
+    flex-basis: 50.00%; }
+  /* line 50, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-7 {
+    flex-basis: 58.33%; }
+  /* line 54, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-8 {
+    flex-basis: 66.67%; }
+  /* line 58, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-9 {
+    flex-basis: 75.00%; }
+  /* line 62, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-10 {
+    flex-basis: 83.33%; }
+  /* line 66, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-11 {
+    flex-basis: 91.67%; }
+  /* line 70, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .col-12 {
+    flex-basis: 100%; }
+  /* line 74, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; }
+    /* line 78, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+    .nav-link {
+      flex-basis: 100px; }
+  /* line 83, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .btn {
+    padding: 10px 30px; }
+  /* line 87, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .btn + .btn {
+    margin-left: 10px; }
+  /* line 91, ../../../../../Users/girlfriend/Documents/Treehouse Webdesign Techdegree/Project_4_TreehouseTD/scss/component/_mediaqueries.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial; } }
 
 /*# sourceMappingURL=styles.css.map */

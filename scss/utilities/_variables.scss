@@ -29,6 +29,14 @@ $btn-error: #e4757a;
 $btn-warning: #fd7856;
 $btn-info: #927bc1;
 
+// Button Lightens
+
+$default-lighten: lighten($btn-default, 25%);
+$success-lighten: lighten($btn-success, 25%);
+$error-lighten: lighten($btn-error, 25%);
+$warning-lighten: lighten($btn-warning, 25%);
+$info-lighten: lighten($btn-info, 25%);
+
 /* ============================================= */
 /*              Fonts                            */
 /* ============================================= */

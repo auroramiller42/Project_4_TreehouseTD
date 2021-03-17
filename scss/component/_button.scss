@@ -8,31 +8,39 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-    @media (min-width: $break-media)
-    {
-      padding: 10px 30px;
-      & + & {
-          margin-left: 10px;
-      }
-    }
   }
   
   .default {
     background-color: $btn-default;
+    &:hover{ 
+      background-color: $default-lighten;
+    }
   }
   
   .error {
     background-color: $btn-error;
+    &:hover{ 
+      background-color: $error-lighten;
+    }
   }
   
   .info {
     background-color: $btn-info;
+    &:hover{ 
+      background-color: $info-lighten;
+    }
   }
   
   .success {
     background-color: $btn-success;
+    &:hover{ 
+      background-color: $success-lighten;
+    }
   }
   
   .warning {
     background-color: $btn-warning;
+    &:hover{ 
+      background-color: $warning-lighten;
+    }
   }
